@@ -1,4 +1,4 @@
-
+<!--HTML with Bootstrap-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -244,3 +244,260 @@
     </div>
 </body>
 </html>
+
+
+/* CSS */
+
+body,
+html {
+
+  height: 95.5%;
+  margin-top: -0.0%;
+  background-image: url("java.png");
+
+}
+
+
+* {
+  box-sizing: border-box;
+
+
+}
+
+.Links {
+  padding: 0.7%;
+  margin-left: 95.6px;
+
+}
+
+
+.Links {
+  display: grid;
+  /* grid-template-columns: 10px 198px; */
+  grid-template-columns: repeat(8, 150px);
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+h1 {
+  color: white;
+  margin: 3%;
+
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  display: grid;
+  color: blue;
+  font-family: cursive;
+  font-size: 30px;
+  border-width: 1px;
+
+
+}
+ body,
+ html {
+
+   height: 95.5%;
+   margin-top: -0.0%;
+   background-image: url("200.gif");
+
+ }
+
+ * {
+   box-sizing: border-box;
+   padding: 0;
+   justify-content: center;
+
+ }
+
+ /* 
+ audio {
+   display: none;
+ } */
+
+ .bg-image1 {
+   /* The image used */
+   background-image: url("/jefferson-santos-9SoCnyQmkzI-unsplash.jpg");
+   /* Add the blur effect */
+   filter: blur(10px);
+   -webkit-filter: blur(1px);
+   height: 100%;
+
+   /* 
+   border-style: solid;
+   border-color: red; */
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: grid;
+
+
+ }
+
+
+
+
+
+ /* Position text in the middle of the page/image */
+ .bg-text {
+   background-color: rgb(0, 0, 0);
+   /* Fallback color */
+   background-color: rgba(0, 0, 0, 0.4);
+   /* Black w/opacity/see-through */
+   color: white;
+   font-weight: bold;
+   font-family: Impact, 'Arial Narrow', sans-serif;
+   position: absolute;
+   top: 66%;
+   left: 80%;
+   transform: translate(-100%, -100%);
+   z-index: 2;
+   width: 60%;
+   padding: 20px;
+   text-align: center;
+
+ }
+
+
+
+ header {
+
+   height: 8.2vh;
+   text-align: center;
+
+
+ }
+
+ .Links {
+   padding: 0.7%;
+
+   margin-left: -8%;
+ }
+
+
+ .Links {
+   display: grid;
+   /* grid-template-columns: 10px 198px; */
+   grid-template-columns: repeat(8, 150px);
+   /* grid-template-columns: 1fr 1fr 1fr; */
+ }
+ /* SECONED PAGE */
+ html,
+ body {
+
+
+   margin-top: -0%;
+   background-image: url("/giphy.gif");
+
+ }
+
+ * {
+   box-sizing: border-box;
+
+
+ }
+
+
+
+
+ header {
+
+
+   height: 8.2vh;
+   text-align: center;
+   background-image: url("200.gif");
+
+ }
+
+ .bg-gif {
+   /* The image used */
+
+   /* Add the blur effect */
+   /* filter: blur(5px);
+   -webkit-filter: blur(2px); */
+   height: 100%;
+
+
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: grid;
+ }
+
+ h1 {
+   color: white;
+   padding-top: 2.5%;
+   text-align: center;
+
+ }
+
+ .card {
+   margin: 3%;
+
+ }
+
+
+ .Links2 {
+   padding: 0.7%;
+   margin-left: 95.6px;
+
+
+ }
+
+
+ .Links2 {
+   display: grid;
+   /* grid-template-columns: 10px 198px; */
+   grid-template-columns: repeat(8, 150px);
+   /* grid-template-columns: 1fr 1fr 1fr; */
+ }
+
+ footer {
+   color: white;
+   margin: 3%;
+   font-size: 30px;
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+ }
+body,
+html {
+
+  height: 95.5%;
+  margin-top: -0.0%;
+  background-image: url("contact-background.jpeg");
+
+
+}
+
+
+* {
+  box-sizing: border-box;
+
+}
+
+.Links3 {
+  padding: 0.7%;
+  margin-left: 95.6px;
+}
+
+
+.Links3 {
+  display: grid;
+  /* grid-template-columns: 10px 198px; */
+  grid-template-columns: repeat(8, 150px);
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+.list-group-item {
+  margin-top: 15%;
+  display: flex;
+  flex-direction: row;
+}
