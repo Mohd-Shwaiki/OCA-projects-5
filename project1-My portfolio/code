@@ -1,4 +1,58 @@
-<!--HTML with Bootstrap-->
+<!-- HTML FIRST PAGE -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <title>Home</title>
+
+</head>
+
+<body>
+ 
+
+  <header>
+    
+    
+    <div class="Links">&ensp;
+      
+      <a href="index.html" class="two btn btn-success col-sm-10" role="button">Home </a>&ensp;&ensp;
+      <!-- <button type="button" class="btn btn-info">Button</button> -->
+      <a href="Accomplishment.html" class="three btn btn-success col-sm-20" role="button">Accomplishment</a>&ensp;&ensp;
+      <!-- <button type="button" class="btn btn-info">Button</button> -->
+      <a href="Contacts.html"class="four btn btn-success col-sm-10" role="button">Contact</a>&ensp;&ensp;
+      <!-- <button type="button" class="btn btn-info">Button</button> -->
+      <a href="Aboutme.html" class="one btn btn-success col-sm-10" role="button">About </a>
+      <!-- <button type="button" class="btn btn-info">Button</button> -->
+    </div>
+    
+  </div>
+  
+</header>
+<div class="bg-text">
+  <h1>I'm Ayah Imad</h1>
+  <p>Hello World</p>
+</div>
+<div class="bg-image1"></div>
+<!-- <audio src="/Queen - We Will Rock You (Official Video).mp3" controls>
+  <embed name="GoodEnough" src="/music/good_enough.mp3" loop="true" hidden="true" autostart="true">
+  </audio> -->
+  
+  
+  
+</body>
+</html>
+
+<!-- HTML SECOND PAGE-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -86,6 +140,8 @@
 </body>
 </html>
 
+<!-- HTML THIRD PAGE-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -142,58 +198,8 @@
 </a>
 </body>
 </html>
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-  <title>Home</title>
-
-</head>
-
-<body>
- 
-
-  <header>
-    
-    
-    <div class="Links">&ensp;
-      
-      <a href="index.html" class="two btn btn-success col-sm-10" role="button">Home </a>&ensp;&ensp;
-      <!-- <button type="button" class="btn btn-info">Button</button> -->
-      <a href="Accomplishment.html" class="three btn btn-success col-sm-20" role="button">Accomplishment</a>&ensp;&ensp;
-      <!-- <button type="button" class="btn btn-info">Button</button> -->
-      <a href="Contacts.html"class="four btn btn-success col-sm-10" role="button">Contact</a>&ensp;&ensp;
-      <!-- <button type="button" class="btn btn-info">Button</button> -->
-      <a href="Aboutme.html" class="one btn btn-success col-sm-10" role="button">About </a>
-      <!-- <button type="button" class="btn btn-info">Button</button> -->
-    </div>
-    
-  </div>
-  
-</header>
-<div class="bg-text">
-  <h1>I'm Ayah Imad</h1>
-  <p>Hello World</p>
-</div>
-<div class="bg-image1"></div>
-<!-- <audio src="/Queen - We Will Rock You (Official Video).mp3" controls>
-  <embed name="GoodEnough" src="/music/good_enough.mp3" loop="true" hidden="true" autostart="true">
-  </audio> -->
-  
-  
-  
-</body>
-</html>
-
+<!-- HTML FOURTH PAGE -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -246,56 +252,7 @@
 </html>
 
 
-/*CSS*/
-
-body,
-html {
-
-  height: 95.5%;
-  margin-top: -0.0%;
-  background-image: url("java.png");
-
-}
-
-
-* {
-  box-sizing: border-box;
-
-
-}
-
-.Links {
-  padding: 0.7%;
-  margin-left: 95.6px;
-
-}
-
-
-.Links {
-  display: grid;
-  /* grid-template-columns: 10px 198px; */
-  grid-template-columns: repeat(8, 150px);
-  /* grid-template-columns: 1fr 1fr 1fr; */
-}
-
-h1 {
-  color: white;
-  margin: 3%;
-
-}
-
-p {
-  display: flex;
-  flex-direction: row;
-  margin: 2%;
-  display: grid;
-  color: blue;
-  font-family: cursive;
-  font-size: 30px;
-  border-width: 1px;
-
-
-}
+/* CSS FIRST PAGE */
  body,
  html {
 
@@ -385,7 +342,9 @@ p {
    grid-template-columns: repeat(8, 150px);
    /* grid-template-columns: 1fr 1fr 1fr; */
  }
- /* SECONED PAGE */
+ 
+ /* CSS SECOND PAGE */ 
+ 
  html,
  body {
 
@@ -467,7 +426,10 @@ p {
    width: 100%;
    text-align: center;
  }
-body,
+ /* CSS THIRD PAGE */
+ 
+ 
+ body,
 html {
 
   height: 95.5%;
@@ -500,4 +462,56 @@ html {
   margin-top: 15%;
   display: flex;
   flex-direction: row;
+}
+
+/* CSS FOURTH PAGE */
+
+
+body,
+html {
+
+  height: 95.5%;
+  margin-top: -0.0%;
+  background-image: url("java.png");
+
+}
+
+
+* {
+  box-sizing: border-box;
+
+
+}
+
+.Links {
+  padding: 0.7%;
+  margin-left: 95.6px;
+
+}
+
+
+.Links {
+  display: grid;
+  /* grid-template-columns: 10px 198px; */
+  grid-template-columns: repeat(8, 150px);
+  /* grid-template-columns: 1fr 1fr 1fr; */
+}
+
+h1 {
+  color: white;
+  margin: 3%;
+
+}
+
+p {
+  display: flex;
+  flex-direction: row;
+  margin: 2%;
+  display: grid;
+  color: blue;
+  font-family: cursive;
+  font-size: 30px;
+  border-width: 1px;
+
+
 }
